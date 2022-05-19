@@ -4,6 +4,7 @@
         <title>Survery Form</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link type="text/css" rel="stylesheet" href="./styles.css">
     </head>
     <body>
         <header>
@@ -12,7 +13,7 @@
         </header>
         <main>
             <section>
-                <form id="survey-form">
+                <form id="survey-form" action="https://registerdemo.freecodecamp.org">
                     <fieldset>
                         <label id="name-label">Enter Your Name: <input type="text" id="name" placeholder="Enter your full name" required>
                         </label>
@@ -38,17 +39,17 @@
 
                     <fieldset id="radio">
                         <label>What brokerage do you work for?</label>
-                        <label><input type="radio" name="brokerage"> Keller Williams</label>
-                        <label><input type="radio" name="brokerage"> Vista Sotheby's</label>
-                        <label><input type="radio" name="brokerage"> West Shores</label>
-                        <label><input type="radio" name="brokerage"> Re/Max</label>
+                        <label><input class="inline" type="radio" name="brokerage"> Keller Williams</label>
+                        <label><input class="inline" type="radio" name="brokerage"> Vista Sotheby's</label>
+                        <label><input class="inline" type="radio" name="brokerage"> West Shores</label>
+                        <label><input class="inline" type="radio" name="brokerage"> Re/Max</label>
                     </fieldset>
 
                     <fieldset id="farming-type">
                         <label>Which are your main forms of lead-gen?</label>
-                        <label><input type="checkbox" value="1"> Doorknocking</label>
-                        <label><input type="checkbox" value="2"> Cold-Calling</label>
-                        <label><input type="checkbox" value="3"> Open Houses</label>
+                        <label><input class="inline" type="checkbox" value="1"> Doorknocking</label>
+                        <label><input class="inline" type="checkbox" value="2"> Cold-Calling</label>
+                        <label><input class="inline" type="checkbox" value="3"> Open Houses</label>
                     </fieldset>
 
                     <fieldset>
