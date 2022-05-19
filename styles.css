@@ -10,13 +10,18 @@ body {
         rgba(58, 58, 158, 0.8),
         rgba(136, 136, 206, 0.7)
       ),
-      url("./images/picture.png");
+      url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
     background-size: cover;
+}
+
+form {
+    background-color: #1b1b32;
+    padding: 0 30px;
 }
 
 header {
     text-align: center;
-    
+    font-size: 23px;
 }
 
 label {
@@ -26,6 +31,7 @@ label {
 header p {
     margin-top: 0;
     font-style: italic;
+    font-size: 20px;
 }
 
 form {
@@ -49,13 +55,17 @@ input, textarea, select {
     margin: 0px;
     margin-top: 10px;
     margin-bottom: 10px;
+    
 }
 
 .inline {
     width: 3%;
-    margin: 0px;
-    margin-right: 0.5em;
+    margin: 0 0.5em 0 0;
     vertical-align: middle;
+}
+
+#farming-type label {
+    vertical-align: center;
 }
 
 input, textarea, select {
@@ -64,7 +74,7 @@ input, textarea, select {
 }
 
 input, textarea {
-    background-color: #0a0a23;
+    background-color: #f5f6f7;
     border: 1px solid #0a0a23;
     color: #ffffff;
 }
@@ -78,3 +88,5 @@ input[type="submit"] {
     background-color: #3b3b4f;
     border-color: white;
   }
+
+ 
