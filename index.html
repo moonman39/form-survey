@@ -20,18 +20,28 @@
                         </label>
                         <label id="number-label">Enter Your Age: <input type="number" id="number" placeholder="Enter your age" min=18 max=120>
                         </label>
+                        <label id="phone-label">Enter Your Phone Number: <input type="tel" id="telephone" placeholder="Enter your phone number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                        </label>
                     </fieldset>
                     
-                    <fieldset>
+                    <fieldset id="referral">
                         <label>How did you hear about us?
                             <select id="dropdown">
                                 <option value="">(Select One)</option>
-                                <option value="1">Youtube ad</option>
+                                <option value="1">Youtube video</option>
                                 <option value="1">Word of Mouth</option>
                                 <option value="1">Google Search</option>
-                                <option value="1">Other</option>
+                                <option value="1">Broker</option>
                             </select>
                         </label>
+                    </fieldset>
+
+                    <fieldset id="radio">
+                        <label>What brokerage do you work for?</label>
+                        <label><input type="radio" name="brokerage"> Keller Williams</label>
+                        <label><input type="radio" name="brokerage"> Vista Sotheby's</label>
+                        <label><input type="radio" name="brokerage"> West Shores</label>
+                        <label><input type="radio" name="brokerage"> Re/Max</label>
                     </fieldset>
 
                 </form>
