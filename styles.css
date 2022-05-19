@@ -59,13 +59,20 @@ input, textarea, select {
 }
 
 .inline {
-    width: 3%;
+    width: unset;
     margin: 0 0.5em 0 0;
     vertical-align: middle;
 }
 
-#farming-type label {
+
+#radio label {
     vertical-align: center;
+    margin-top: 10px;
+}
+
+#farming-type label {
+    vertical-align: middle;
+    margin-top: 10px;
 }
 
 input, textarea, select {
